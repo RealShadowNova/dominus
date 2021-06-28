@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Feature Request
+    about: Suggest an idea for this project.
+  - name: Bug Report
+    about: Create a report to help us improve this project.
+  - name: Discord server
+    url: https://discord.gg/WnPS6yj
+    about: Please visit our Discord server for questions and support requests.

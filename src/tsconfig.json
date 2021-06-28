@@ -1,0 +1,20 @@
+{
+	"extends": "../tsconfig.base.json",
+	"compilerOptions": {
+		"outDir": "../dist",
+		"rootDir": ".",
+		"baseUrl": ".",
+		"paths": {
+			"#lib/database": ["lib/database/index.ts"],
+			"#lib/structures": ["lib/structures/index.ts"],
+			"#lib/i18n": ["lib/i18n/index.ts"],
+			"#lib/types": ["lib/types/index.ts"],
+			"#utils": ["lib/utils/index.ts"],
+			"#config": ["config.ts"],
+			"#root/*": ["*"]
+		},
+		"composite": true
+	},
+	"include": [".", "**/*.json"],
+	"exclude": ["./tsconfig.json", "./config.example.ts"]
+}
